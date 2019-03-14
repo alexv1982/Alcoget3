@@ -145,8 +145,10 @@ public class MainActivity extends AppCompatActivity {
                     TextView docinfo = (TextView) findViewById(R.id.ttn_in_doc_info);
                     docinfo.setText(dcfiltered.get(position).client);
 
+
                     TextView docinfo2 = (TextView) findViewById(R.id.ttn_in_doc_info2);
 
+                    
                     if(dcfiltered.get(position).status==1)
                     {
                         docinfo2.setText("Свободен");
